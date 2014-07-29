@@ -18,22 +18,9 @@ PRODUCT_POLICY := android.policy_phone
 PRODUCT_PROPERTY_OVERRIDES :=
 
 PRODUCT_PACKAGES := \
-	Calculator \
-	DeskClock \
-	Email \
-	Exchange2 \
-	FusedLocation \
-	Gallery \
-	Keyguard \
-	Music \
-	Mms \
-	OpenWnn \
-	PrintSpooler \
 	libWnnEngDic \
 	libWnnJpnDic \
 	libwnndict \
-	TeleService \
-	PinyinIME \
 	Protips \
 	SoftKeyboard \
 	SystemUI \
@@ -41,24 +28,16 @@ PRODUCT_PACKAGES := \
 	Development \
 	DevelopmentSettings \
 	Fallback \
-	Settings \
 	SdkSetup \
 	CustomLocale \
 	sqlite3 \
 	InputDevices \
-	LatinIME \
-	CertInstaller \
-	LiveWallpapersPicker \
 	ApiDemos \
 	GestureBuilder \
-	CubeLiveWallpapers \
-	QuickSearchBox \
 	WidgetPreview \
 	librs_jni \
 	ConnectivityTest \
 	GpsLocationTest \
-	CalendarProvider \
-	Calendar \
 	SmokeTest \
 	SmokeTestApp \
 	rild \

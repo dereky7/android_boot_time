@@ -31,7 +31,6 @@ PRODUCT_PACKAGES += \
     dhcpcd-run-hooks \
     dnsmasq \
     framework \
-    fsck_msdos \
     ime \
     javax.obex \
     libSR_AudioIn \
@@ -41,8 +40,6 @@ PRODUCT_PACKAGES += \
     libaudioeffect_jni \
     libaudioflinger \
     libbundlewrapper \
-    libcamera_client \
-    libcameraservice \
     libdl \
     libeffectproxy \
     libeffects \
@@ -58,15 +55,12 @@ PRODUCT_PACKAGES += \
     libnetlink \
     libnetutils \
     libpac \
-    libreference-ril \
     libreverbwrapper \
-    libril \
     librtp_jni \
     libsensorservice \
     libskia \
     libsonivox \
     libsoundpool \
-    libsqlite \
     libstagefright \
     libstagefright_amrnb_common \
     libstagefright_avc_common \
@@ -92,10 +86,8 @@ PRODUCT_PACKAGES += \
     platform.xml \
     pppd \
     pm \
-    racoon \
     run-as \
     schedtest \
-    screenshot \
     sdcard \
     services \
     settings \
@@ -103,7 +95,6 @@ PRODUCT_PACKAGES += \
     tc \
     vdc \
     vold \
-    webview \
     wm
 
 

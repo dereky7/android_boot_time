@@ -30,6 +30,10 @@ BOARD_USES_GENERIC_AUDIO := true
 # no hardware camera
 USE_CAMERA_STUB := true
 
+# VVDN - gps
+# test
+#BOARD_GPS_LIBRARIES := gps.default
+
 # Enable dex-preoptimization to speed up the first boot sequence
 # of an SDK AVD. Note that this operation only works on Linux for now
 ifeq ($(HOST_OS),linux)

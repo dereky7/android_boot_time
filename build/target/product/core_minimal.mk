@@ -23,18 +23,12 @@ PRODUCT_DEVICE := generic
 PRODUCT_NAME := core
 
 PRODUCT_PACKAGES += \
-    BackupRestoreConfirmation \
-    DownloadProvider \
-    HTMLViewer \
-    MediaProvider \
     PackageInstaller \
-    SettingsProvider \
+	SettingsProvider \
     Shell \
     bu \
     com.android.location.provider \
     com.android.location.provider.xml \
-    com.android.media.remotedisplay \
-    com.android.media.remotedisplay.xml \
     drmserver \
     framework-res \
     installd \
@@ -50,14 +44,12 @@ PRODUCT_PACKAGES += \
     libdrmframework \
     libdrmframework_jni \
     libfilterfw \
-    libsqlite_jni \
     libwilhelm \
     make_ext4fs \
-    screencap \
     sensorservice \
     uiautomator
 
-PRODUCT_BOOT_JARS := core:conscrypt:okhttp:core-junit:bouncycastle:ext:framework:framework2:android.policy:services:apache-xml:webviewchromium
+PRODUCT_BOOT_JARS := core:conscrypt:okhttp:core-junit:bouncycastle:ext:framework:framework2:android.policy:services:apache-xml
 
 PRODUCT_RUNTIMES := runtime_libdvm_default
 PRODUCT_RUNTIMES += runtime_libart

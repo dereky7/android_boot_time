@@ -21,9 +21,6 @@ PRODUCT_PACKAGES += \
     adb \
     adbd \
     bootanimation \
-    debuggerd \
-    dumpstate \
-    dumpsys \
     gralloc.default \
     gzip \
     healthd \
@@ -39,7 +36,6 @@ PRODUCT_PACKAGES += \
     libGLESv2 \
     libbinder \
     libc \
-    libctest \
     libcutils \
     libdl \
     libgui \
@@ -60,7 +56,6 @@ PRODUCT_PACKAGES += \
     libutils \
     linker \
     logcat \
-    logwrapper \
     reboot \
     service \
     servicemanager \

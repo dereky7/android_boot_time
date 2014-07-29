@@ -20,34 +20,13 @@
 PRODUCT_POLICY := android.policy_phone
 
 PRODUCT_PACKAGES := \
-    DeskClock \
     Bluetooth \
-    Calculator \
-    Calendar \
-    Camera2 \
-    CertInstaller \
-    Email \
-    Exchange2 \
-    FusedLocation \
-    Gallery2 \
-    InputDevices \
-    Keyguard \
-    LatinIME \
     Launcher2 \
-    Music \
-    MusicFX \
-    OneTimeInitializer \
-    PrintSpooler \
-    Provision \
-    QuickSearchBox \
-    Settings \
-    SystemUI \
-    TeleService \
-    CalendarProvider \
+	InputDevices \
+	SystemUI \
     bluetooth-health \
     hostapd \
     wpa_supplicant.conf \
-    WallpaperCropper
 
 PRODUCT_PACKAGES += \
     audio \
@@ -88,7 +67,7 @@ $(call inherit-product-if-exists, external/noto-fonts/fonts.mk)
 $(call inherit-product-if-exists, external/naver-fonts/fonts.mk)
 $(call inherit-product-if-exists, external/sil-fonts/fonts.mk)
 $(call inherit-product-if-exists, frameworks/base/data/keyboards/keyboards.mk)
-$(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
+#$(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
 
 # Overrides

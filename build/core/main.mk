@@ -441,7 +441,6 @@ else	# !SDK_ONLY
 # Typical build; include any Android.mk files we can find.
 #
 subdirs := $(TOP)
-
 FULL_BUILD := true
 
 endif	# !SDK_ONLY
